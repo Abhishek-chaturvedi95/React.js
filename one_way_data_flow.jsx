@@ -18,7 +18,7 @@ function App(){
   const incrementCounter = () => setCounter(counter + 1);
   return(
     <div>
-      <Button onclickFunction = {incrementCounter}/>
+      <Button onClickFunction = {incrementCounter}/>
       <Display message = {counter}/>
     </div>
   );
