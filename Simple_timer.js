@@ -9,3 +9,5 @@ function tick(){
 }
 
 setInterval(tick , 1000);
+
+//It calls ReactDOM.render() every second from a setInterval() callback.
